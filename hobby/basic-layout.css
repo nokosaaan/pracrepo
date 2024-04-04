@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+body{
+    font-size: 18px;
+    margin:0;
+}
+
+.header{
+    background: #2a5c84;
+    color:white;
+    text-align: center;
+    padding:100px 5px;
+}
+
+.header a {
+    color: white;
+    padding: 5px 10px;
+    margin: 0 3px;
+    border: solid 1px white;
+    border-radius: 10px;
+    transition: all .5s;
+}
+
+.header a:hover {
+    background: white;
+    color: #2a5c84;
+}
+
+.main {
+    background: #2da9af;
+    padding: 10px 0 40px 0;
+}
+.main h2 {
+    color: white;
+    text-align: center;
+    margin: 40px 0;
+}
+.main img {
+    width: 100%;
+}
+.mokuji {
+    background: white;
+    width: 250px;
+    margin: 30px auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+.mokuji h3 {
+    text-align: center;
+    margin: 0;
+}
+.mokuji ul {
+    margin: 10px 0;
+}
+.mokuji a {
+    transition: all .5s;
+}
+.mokuji a:hover {
+    color: orange;
+}
+.contents {
+    background: white;
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+.contents p {
+    padding-left: 5px;
+    border-left: solid 10px #2da9af;
+}
+.contents b {
+    color: orangered;
+}
+.contents ol {
+    margin: 10px 0;
+}
+.circle {
+    width: 20px;
+    margin: 40px auto;
+}
+.circle div {
+    background: white;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    border-radius: 100%;
+}
