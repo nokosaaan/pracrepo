@@ -90,7 +90,7 @@ nav{
 
 nav ul{
     display: flex;
-    color:white;
+    color:rgba(217, 238, 217, 0.936);
     background: black;
     margin:0;
     list-style: none;
@@ -126,7 +126,7 @@ nav.open{
         flex-direction: column;
         height:50vh;
         padding-top:40px;
-        background: rgba(255,255,255,.9);
+        background: rgba(255,255,255,.3);
     }
     nav li{
         width: 100%;
@@ -135,34 +135,35 @@ nav.open{
 }
 
 /*メニューボタン*/
-.menubutoon{
+.menubutton{
     position:fixed;
-    top:0;
-    left:0;
+    top:2px;
+    left:2px;
     cursor: pointer;
     z-index:100;
     width:40px;
     height: 40px;
-    padding:5px;
+    padding:10px;
     background: black;
     display: none;
+    border-radius: 5px;
 }
 
-.menubutoon i{
+.menubutton i{
     display: block;
-    width: 30px;
-    height:5px;
-    background: white;
-    margin-bottom:7.5px;
+    width: 20px;
+    height:2px;
+    background: rgba(255,255,255,.7);
+    margin-bottom:8.5px;
 }
 
-.menubutoon i:last-child{
+.menubutton i:last-child{
     margin-bottom: 0;
 }
 
 /*メディアクエリ*/
 @media(max-width:840px){
-    .menubutoon{
+    .menubutton{
         display:block;
     }
 }
