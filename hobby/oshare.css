@@ -90,7 +90,8 @@ nav{
 
 nav ul{
     display: flex;
-    background: rgba(255,255,255,.7);
+    color:white;
+    background: black;
     margin:0;
     list-style: none;
     padding: 0;
@@ -100,11 +101,68 @@ nav ul{
 nav li{
     text-align: center;
     padding: 10px 0;
-    width: 80px;
+    width: 90px;
     cursor: pointer;
     transition: all 1s;
 }
 
 nav li:hover{
+    color: black;
     background: white;
+}
+
+/*メニューの表示*/
+nav.open{
+    display:block;
+}
+
+/*メディアクエリ*/
+@media(max-width:840px){
+    nav{
+        position:fixed;
+        display: none;
+    }
+    nav ul{
+        flex-direction: column;
+        height:50vh;
+        padding-top:40px;
+        background: rgba(255,255,255,.9);
+    }
+    nav li{
+        width: 100%;
+        padding:20px;
+    }
+}
+
+/*メニューボタン*/
+.menubutoon{
+    position:fixed;
+    top:0;
+    left:0;
+    cursor: pointer;
+    z-index:100;
+    width:40px;
+    height: 40px;
+    padding:5px;
+    background: black;
+    display: none;
+}
+
+.menubutoon i{
+    display: block;
+    width: 30px;
+    height:5px;
+    background: white;
+    margin-bottom:7.5px;
+}
+
+.menubutoon i:last-child{
+    margin-bottom: 0;
+}
+
+/*メディアクエリ*/
+@media(max-width:840px){
+    .menubutoon{
+        display:block;
+    }
 }
