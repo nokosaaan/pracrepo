@@ -42,6 +42,7 @@ header img{
     max-height:100vh;
     color: aqua;
     background:rgba(242, 130, 232, 0.5);
+    -webkit-text-stroke: 0.5px white;
     font-size: 50px;
     padding:5px;
     z-index: 2;
@@ -53,7 +54,7 @@ header img{
         width: 100%;
         height:auto;
         font-size: 40px;
-        transform: translate(-50%,-500%);
+        transform: translate(-50%,-520%);
     }
 }
 
@@ -62,7 +63,7 @@ header img{
         width: 100%;
         height:auto;
         font-size: 35px;
-        transform: translate(-50%,-300%);
+        transform: translate(-50%,-540%);
     }
 }
 
@@ -73,7 +74,7 @@ header img{
     .top-title{
         width:100%;
         height:auto;
-        transform: translate(-50%,-200%);
+        transform: translate(-50%,-580%);
     }
 }
 
@@ -82,7 +83,7 @@ header img{
         width:100%;
         height:auto;
         font-size: 30px;
-        transform: translate(-50%,-100%);
+        transform: translate(-50%,-580%);
     }
 }
 
