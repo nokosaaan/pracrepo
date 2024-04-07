@@ -15,8 +15,8 @@ body{
 
 header{
     position: relative;
-    grid-column-start: main;
-    grid-column-end: end;
+    grid-column-start: left;
+    grid-column-end: right;
     grid-row-start: header;
     grid-row-end: main;
     margin-bottom:100px;
@@ -31,27 +31,58 @@ header img{
 }
 
 .top-title{
-    display:block;
+    display:flex;
     justify-content: center;
     align-items: center;
     position: absolute;
     bottom:0;
     left:50%;
-    transform:translate(-50%,-50%);
+    transform:translate(-50%,-500%);
     width:100%;
     max-height:100vh;
-    background:rgba(255,255,255,.5);
+    color: aqua;
+    background:rgba(242, 130, 232, 0.5);
     font-size: 50px;
+    padding:5px;
     z-index: 2;
 }
 
 /*メディアクエリ*/
 @media(max-width:1024px){
     .top-title{
-        width: auto;
+        width: 100%;
         height:auto;
         font-size: 40px;
-        transform: translate(-50%,-50%);
+        transform: translate(-50%,-500%);
+    }
+}
+
+@media(max-width:840px){
+    .top-title{
+        width: 100%;
+        height:auto;
+        font-size: 35px;
+        transform: translate(-50%,-300%);
+    }
+}
+
+@media(max-width:580px){
+    header{
+        margin-bottom: 60px;
+    }
+    .top-title{
+        width:100%;
+        height:auto;
+        transform: translate(-50%,-200%);
+    }
+}
+
+@media(max-width:450px){
+    .top-title{
+        width:100%;
+        height:auto;
+        font-size: 30px;
+        transform: translate(-50%,-100%);
     }
 }
 
