@@ -146,6 +146,57 @@ main{
     border-bottom:dashed 10px #cd1919;
 }
 
+#room1{
+    margin-top: 500px;
+}
+
+.anime{
+    width: 100%;
+    margin:1em;
+    text-align: center;
+}
+
+
+
+form{
+    margin-bottom: 50px;
+}
+
+form .year{
+    width:1200px;
+    padding:20px;
+    font-size: 32px;
+    cursor: pointer;
+}
+
+.anime li{
+    font-size: 20px;
+}
+
+.anime .content{
+    display:flex;
+    width:100%;
+    max-width:1200px;
+    margin:2em auto;
+}
+
+.anime .content img{
+    display:block;
+    height:200px;
+    margin:5px;
+    max-width: 500px;
+    border: solid 1px black;
+}
+
+
+
+.anime .comments{
+    width:100%;
+    padding: 0 10px;
+    border-radius: 10px;
+    background: rgba(197, 246, 244, 0.5);
+}
+
 aside{
     grid-column-start:main;
     grid-column-end:end;
