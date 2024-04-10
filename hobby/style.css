@@ -145,3 +145,37 @@ main{
     font-size: 24px;
     border-bottom:dashed 10px #cd1919;
 }
+
+aside{
+    grid-column-start:main;
+    grid-column-end:end;
+    grid-row-start:aside;
+    grid-row-end:footer;
+}
+
+aside h2{
+    text-align: center;
+}
+
+.news{
+    max-width: 1000px;
+    height:400px;
+    border-top:dashed 1px #201394;
+    border-bottom:dashed 1px #201394;
+    margin:2em auto;
+    padding:1em 20px;
+    color:black;
+    overflow: scroll;
+}
+
+.news .topic{
+    display:flex;
+    align-items:center;
+    padding:10px;
+    margin:1em 0;
+    border-left:solid 10px #3997cd;
+}
+
+.news .time{
+    margin-right: 1em;
+}
