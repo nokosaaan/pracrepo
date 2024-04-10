@@ -179,3 +179,14 @@ aside h2{
 .news .time{
     margin-right: 1em;
 }
+
+footer{
+    grid-column-start:left;
+    grid-column-end:right;
+    grid-row-start:footer;
+    grid-row-end:bottom;
+    text-align:center;
+    color:white;
+    background:black;
+    padding:10px 0;
+}
