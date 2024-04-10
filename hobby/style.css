@@ -7,7 +7,7 @@
 body{
     position: relative;
     margin:0;
-    background: white;
+    background: rgba(26, 22, 22, 0);
     display:grid;
     grid-template-columns: [left]1fr[main]1500px[end]1fr[right];
     grid-template-rows: [header]auto[main]auto[aside]auto[footer]auto[bottom];
