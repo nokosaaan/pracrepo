@@ -202,16 +202,59 @@ main{
         width: 100%;
         margin:1em;
         text-align: center;
-    }
-    
-    .doujin .caution{
-        max-width:1200px;
-        font-size: 20px;
-        margin:auto;
-        padding: 0;
-        background: rgb(36, 157, 60);
-        color: aliceblue;
-        border: solid 2px #cd1919;
+
+        .caution{
+            max-width:1200px;
+            font-size: 20px;
+            margin:auto;
+            padding: 0;
+            background: rgb(36, 157, 60);
+            color: aliceblue;
+            border: solid 2px #cd1919;
+            margin-bottom: 100px;
+        }
+
+        li{
+            font-size:24px;
+            .person{
+                display:flex;
+                width:100%;
+                max-width:1200px;
+
+                .name{
+                    margin-right:5px;
+                }
+
+                a{
+                    img{
+                        height:24px;
+                        margin-top:8px;
+                        margin-left: 10px;
+                        margin-right: 10px;
+                        width: 24px;
+                        padding:0;
+                    }
+                    
+                }
+            }
+            .description{
+                font-size: 20px;
+                text-align: left;
+                margin-bottom: 20px;
+
+                p{
+                    margin-left: 10px;
+                }
+
+                img{
+                    margin-left: 10px;
+                    height:300px;
+                    width:200px;
+                }
+
+            }
+        }
+        
     }
 }
 
