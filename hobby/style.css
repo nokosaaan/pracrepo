@@ -177,7 +177,9 @@ form .year{
     display:flex;
     width:100%;
     max-width:1200px;
+    padding-bottom:40px;
     margin:2em auto;
+    border-bottom: dashed 3px black;
 }
 
 .anime .content img{
@@ -193,8 +195,20 @@ form .year{
 .anime .comments{
     width:100%;
     padding: 0 10px;
+    margin-left: 5px;
     border-radius: 10px;
+    border: solid 1px rgba(14, 157, 126, 0.5);
     background: rgba(197, 246, 244, 0.5);
+}
+
+#room2{
+    margin-top: 300px;
+}
+
+.doujin {
+    width: 100%;
+    margin:1em;
+    text-align: center;
 }
 
 aside{
